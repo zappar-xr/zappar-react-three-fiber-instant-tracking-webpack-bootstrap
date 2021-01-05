@@ -1,16 +1,16 @@
+import './style.sass';
+
 import { render } from 'react-dom';
-import React, { useRef, useState } from 'react';
+import React, { useState } from 'react';
 import { ZapparCamera, InstantTracker, ZapparCanvas } from '@zappar/zappar-react-three-fiber';
-import './style.css';
 
 export default function App() {
-    const zapparCamera = useRef();
     const [placementMode, setPlacementMode] = useState(true);
     return (
       <>
         <ZapparCanvas>
-          <ZapparCamera ref={zapparCamera} />
-          <InstantTracker placementMode={placementMode} camera={zapparCamera}>
+          <ZapparCamera />
+          <InstantTracker placementMode={placementMode}>
             <mesh position={[0, 0, -5]}>
               <sphereBufferGeometry />
               <meshStandardMaterial color="hotpink" />
