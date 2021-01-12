@@ -10,8 +10,8 @@ export default function App() {
       <>
         <ZapparCanvas>
           <ZapparCamera />
-          <InstantTracker placementMode={placementMode}>
-            <mesh position={[0, 0, -5]}>
+          <InstantTracker placementMode={placementMode} placementCameraOffset={[0, 0, -5]}>
+            <mesh>
               <sphereBufferGeometry />
               <meshStandardMaterial color="hotpink" />
             </mesh>
@@ -25,8 +25,8 @@ export default function App() {
              setPlacementMode(!currentPlacementMode);
              }}
           onKeyDown={(currentPlacementMode) => {
-                    setPlacementMode(!currentPlacementMode);
-                }}
+              setPlacementMode(!currentPlacementMode);
+             }}
           role="button"
           tabIndex={0}
         >
