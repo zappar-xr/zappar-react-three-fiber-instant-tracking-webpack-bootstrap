@@ -1,41 +1,17 @@
-import './style.sass';
+import React from 'react';
+import ReactDOM from 'react-dom';
+import './index.css';
+import App from './App';
+import reportWebVitals from './reportWebVitals';
 
-import { render } from 'react-dom';
-import React, { useState } from 'react';
-import { ZapparCamera, InstantTracker, ZapparCanvas } from '@zappar/zappar-react-three-fiber';
+ReactDOM.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
+  document.getElementById('root')
+);
 
-export default function App() {
-    const [placementMode, setPlacementMode] = useState(true);
-    return (
-      <>
-        <ZapparCanvas>
-          <ZapparCamera />
-          <InstantTracker placementMode={placementMode} placementCameraOffset={[0, 0, -5]}>
-            <mesh>
-              <sphereBufferGeometry />
-              <meshStandardMaterial color="hotpink" />
-            </mesh>
-          </InstantTracker>
-          <directionalLight position={[2.5, 8, 5]} intensity={1.5} />
-
-        </ZapparCanvas>
-        <div
-          id="zappar-placement-ui"
-          onClick={(currentPlacementMode) => {
-             setPlacementMode(!currentPlacementMode);
-             }}
-          onKeyDown={(currentPlacementMode) => {
-              setPlacementMode(!currentPlacementMode);
-             }}
-          role="button"
-          tabIndex={0}
-        >
-          Tap here to
-          {placementMode ? ' place ' : ' pick up '}
-          the object
-        </div>
-      </>
-    );
-}
-
-render(<App />, document.getElementById('root'));
+// If you want to start measuring performance in your app, pass a function
+// to log results (for example: reportWebVitals(console.log))
+// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
+reportWebVitals();
