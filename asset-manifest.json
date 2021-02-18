@@ -5,21 +5,21 @@
     "main.js.map": "/static/js/main.ede474cf.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.4818bf7a.js",
     "runtime-main.js.map": "/static/js/runtime-main.4818bf7a.js.map",
-    "static/js/2.8791b424.chunk.js": "/static/js/2.8791b424.chunk.js",
-    "static/js/2.8791b424.chunk.js.map": "/static/js/2.8791b424.chunk.js.map",
+    "static/js/2.2df44b24.chunk.js": "/static/js/2.2df44b24.chunk.js",
+    "static/js/2.2df44b24.chunk.js.map": "/static/js/2.2df44b24.chunk.js.map",
     "face_tracking_model.zbin": "/482727c0e7dd40d73f5aae47f238ad61.zbin",
     "face_mesh_face_model.zbin": "/b4f46e148a3b3b5aef90717d8d60e3fc.zbin",
     "face_mesh_full_head_simplified_model.zbin": "/f7b62a3a53b5c9b3222ba8dc53cb8b11.zbin",
     "index.html": "/index.html",
     "static/css/main.714be9ce.chunk.css.map": "/static/css/main.714be9ce.chunk.css.map",
-    "static/js/2.8791b424.chunk.js.LICENSE.txt": "/static/js/2.8791b424.chunk.js.LICENSE.txt",
+    "static/js/2.2df44b24.chunk.js.LICENSE.txt": "/static/js/2.2df44b24.chunk.js.LICENSE.txt",
     "static/js/worker.8be1ebab.worker.js": "/static/js/worker.8be1ebab.worker.js",
     "static/js/worker.8be1ebab.worker.js.map": "/static/js/worker.8be1ebab.worker.js.map",
     "zcv/zcv.wasm": "/zcv/zcv.wasm"
   },
   "entrypoints": [
     "static/js/runtime-main.4818bf7a.js",
-    "static/js/2.8791b424.chunk.js",
+    "static/js/2.2df44b24.chunk.js",
     "static/css/main.714be9ce.chunk.css",
     "static/js/main.ede474cf.chunk.js"
   ]
