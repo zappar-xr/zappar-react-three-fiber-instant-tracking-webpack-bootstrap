@@ -3,7 +3,7 @@ import { ZapparCamera, InstantTracker, ZapparCanvas } from '@zappar/zappar-react
 
 
 function App() {
-    const [placementMode, setPlacementMode] = useState(true);
+    let [placementMode, setPlacementMode] = useState(true);
     return (
       <>
         <ZapparCanvas>
@@ -19,12 +19,12 @@ function App() {
         </ZapparCanvas>
         <div
           id="zappar-placement-ui"
-          onClick={(currentPlacementMode) => {
-             setPlacementMode(!currentPlacementMode);
-             }}
-          onKeyDown={(currentPlacementMode) => {
-              setPlacementMode(!currentPlacementMode);
-             }}
+          onClick={() => {
+            setPlacementMode((currentPlacementMode) => !currentPlacementMode);
+          }}
+          onKeyDown={() => {
+            setPlacementMode((currentPlacementMode) => !currentPlacementMode);
+          }}
           role="button"
           tabIndex={0}
         >
