@@ -1,26 +1,19 @@
 {
   "files": {
-    "main.css": "./static/css/main.714be9ce.chunk.css",
-    "main.js": "./static/js/main.211bd7ba.chunk.js",
-    "main.js.map": "./static/js/main.211bd7ba.chunk.js.map",
-    "runtime-main.js": "./static/js/runtime-main.edd9385c.js",
-    "runtime-main.js.map": "./static/js/runtime-main.edd9385c.js.map",
-    "static/js/2.99e5b35e.chunk.js": "./static/js/2.99e5b35e.chunk.js",
-    "static/js/2.99e5b35e.chunk.js.map": "./static/js/2.99e5b35e.chunk.js.map",
-    "face_tracking_model.zbin": "./482727c0e7dd40d73f5aae47f238ad61.zbin",
-    "face_mesh_face_model.zbin": "./b4f46e148a3b3b5aef90717d8d60e3fc.zbin",
+    "main.css": "./static/css/main.7c582816.css",
+    "main.js": "./static/js/main.c0b6c3b8.js",
+    "static/js/zcv.wasm": "./static/js/zcv.wasm",
     "face_mesh_full_head_simplified_model.zbin": "./f7b62a3a53b5c9b3222ba8dc53cb8b11.zbin",
+    "face_mesh_face_model.zbin": "./b4f46e148a3b3b5aef90717d8d60e3fc.zbin",
+    "face_tracking_model.zbin": "./482727c0e7dd40d73f5aae47f238ad61.zbin",
+    "static/js/worker.21e9d08a.worker.js": "./static/js/worker.21e9d08a.worker.js",
     "index.html": "./index.html",
-    "static/css/main.714be9ce.chunk.css.map": "./static/css/main.714be9ce.chunk.css.map",
-    "static/js/2.99e5b35e.chunk.js.LICENSE.txt": "./static/js/2.99e5b35e.chunk.js.LICENSE.txt",
-    "static/js/worker.e302a5bb.worker.js": "./static/js/worker.e302a5bb.worker.js",
-    "static/js/worker.e302a5bb.worker.js.map": "./static/js/worker.e302a5bb.worker.js.map",
-    "static/js/zcv.wasm": "./static/js/zcv.wasm"
+    "static/media/javascript,__webpack_public_path__ = __webpack_base_uri__ = htmlWebpackPluginPublicPath;": "./static/media/.1feff74faaf0efc6a044",
+    "main.7c582816.css.map": "./static/css/main.7c582816.css.map",
+    "main.c0b6c3b8.js.map": "./static/js/main.c0b6c3b8.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.edd9385c.js",
-    "static/js/2.99e5b35e.chunk.js",
-    "static/css/main.714be9ce.chunk.css",
-    "static/js/main.211bd7ba.chunk.js"
+    "static/css/main.7c582816.css",
+    "static/js/main.c0b6c3b8.js"
   ]
 }
