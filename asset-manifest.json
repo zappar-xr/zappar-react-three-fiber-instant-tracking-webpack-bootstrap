@@ -1,19 +1,20 @@
 {
   "files": {
     "main.css": "./static/css/main.7c582816.css",
-    "main.js": "./static/js/main.c0b6c3b8.js",
-    "static/js/zcv.wasm": "./static/js/zcv.wasm",
-    "face_mesh_full_head_simplified_model.zbin": "./f7b62a3a53b5c9b3222ba8dc53cb8b11.zbin",
-    "face_mesh_face_model.zbin": "./b4f46e148a3b3b5aef90717d8d60e3fc.zbin",
-    "face_tracking_model.zbin": "./482727c0e7dd40d73f5aae47f238ad61.zbin",
-    "static/js/worker.21e9d08a.worker.js": "./static/js/worker.21e9d08a.worker.js",
+    "main.js": "./static/js/main.917be8d1.js",
+    "static/js/672.a701f267.chunk.js": "./static/js/672.a701f267.chunk.js",
+    "static/media/zappar-cv.wasm": "./static/media/zappar-cv.ad56c9a01f0d026178a3.wasm",
+    "static/media/face_mesh_full_head_simplified_model.zbin": "./static/media/face_mesh_full_head_simplified_model.f7b62a3a53b5c9b3222b.zbin",
+    "static/media/face_mesh_face_model.zbin": "./static/media/face_mesh_face_model.b4f46e148a3b3b5aef90.zbin",
+    "static/media/face_tracking_model.zbin": "./static/media/face_tracking_model.482727c0e7dd40d73f5a.zbin",
     "index.html": "./index.html",
     "static/media/javascript,__webpack_public_path__ = __webpack_base_uri__ = htmlWebpackPluginPublicPath;": "./static/media/.1feff74faaf0efc6a044",
     "main.7c582816.css.map": "./static/css/main.7c582816.css.map",
-    "main.c0b6c3b8.js.map": "./static/js/main.c0b6c3b8.js.map"
+    "main.917be8d1.js.map": "./static/js/main.917be8d1.js.map",
+    "672.a701f267.chunk.js.map": "./static/js/672.a701f267.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7c582816.css",
-    "static/js/main.c0b6c3b8.js"
+    "static/js/main.917be8d1.js"
   ]
 }
