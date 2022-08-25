@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "./static/css/main.7c582816.css",
-    "main.js": "./static/js/main.917be8d1.js",
+    "main.js": "./static/js/main.a2625af1.js",
     "static/js/672.a701f267.chunk.js": "./static/js/672.a701f267.chunk.js",
     "static/media/zappar-cv.wasm": "./static/media/zappar-cv.ad56c9a01f0d026178a3.wasm",
     "static/media/face_mesh_full_head_simplified_model.zbin": "./static/media/face_mesh_full_head_simplified_model.f7b62a3a53b5c9b3222b.zbin",
@@ -10,11 +10,11 @@
     "index.html": "./index.html",
     "static/media/javascript,__webpack_public_path__ = __webpack_base_uri__ = htmlWebpackPluginPublicPath;": "./static/media/.1feff74faaf0efc6a044",
     "main.7c582816.css.map": "./static/css/main.7c582816.css.map",
-    "main.917be8d1.js.map": "./static/js/main.917be8d1.js.map",
+    "main.a2625af1.js.map": "./static/js/main.a2625af1.js.map",
     "672.a701f267.chunk.js.map": "./static/js/672.a701f267.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7c582816.css",
-    "static/js/main.917be8d1.js"
+    "static/js/main.a2625af1.js"
   ]
 }
